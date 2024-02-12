@@ -115,7 +115,11 @@ void main() {
 
 		const vec3  lit_color  = vec3(MOON_R, MOON_G <= 0.03 ? 0.0 : MOON_G - 0.03, MOON_B);
 		const vec3  glow_color = vec3(MOON_R <= 0.05 ? 0.0 : MOON_R - 0.05, MOON_G, MOON_B);
+<<<<<<< HEAD
 				
+=======
+
+>>>>>>> upstream/main
 		offset = ((fract(vec2(4.0, 2.0) * uv) - 0.5) * rcp(0.15)) / MOON_ANGULAR_RADIUS;
 		offset = rot * offset;
 
